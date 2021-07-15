@@ -1,0 +1,1 @@
+Minimal template for running FAKE on Netlify
