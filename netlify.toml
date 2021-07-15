@@ -1,4 +1,3 @@
 [build]
 	command = "dotnet tool restore && dotnet fake run fake.fsx --target Build"
-[dev]
-	publish = "build"
+	publish = "build/"
