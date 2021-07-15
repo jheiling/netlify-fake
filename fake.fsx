@@ -26,7 +26,7 @@ Target.create cleanTarget (fun _ ->
     Shell.cleanDir buildDir
 )
 
-Target.create serverBuildTarget (fun _ ->
+Target.create buildTarget (fun _ ->
     Shell.copyFile buildDir (buildDir + "/index.html")
 )
 
